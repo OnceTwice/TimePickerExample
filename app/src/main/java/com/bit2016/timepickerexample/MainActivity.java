@@ -18,6 +18,5 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         timePicker = (TimePicker)findViewById( R.id.timePicker );
-
     }
 }

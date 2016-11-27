@@ -24,5 +24,4 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="선택한 날짜 조회" />
-
 </LinearLayout>
