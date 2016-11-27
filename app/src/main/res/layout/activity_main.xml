@@ -4,23 +4,25 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <DatePicker
-        android:id="@+id/datePicker"
+    <TimePicker
+        android:id="@+id/timePicker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:calendarViewShown="false"
-        android:datePickerMode="spinner" />
+        android:timePickerMode="spinner" />
 
     <TextView
         android:id="@+id/dateText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:text="[TimeText]" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:text="선택한 날짜 조회" />
+
 </LinearLayout>
